@@ -1,4 +1,5 @@
 import sort_algorithms.Bucket_loop;
+import sort_algorithms.LSD;
 
 public class task_5 {
     public static void main(String[] args) {
@@ -6,6 +7,10 @@ public class task_5 {
 
         array= getArray();
         Bucket_loop.sort(array);
+
+        array= getArray();
+        LSD.sort(array);
+
         new String();
     }
     static Comparable[] getArray(){
