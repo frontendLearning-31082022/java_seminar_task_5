@@ -1,5 +1,8 @@
 import sort_algorithms.Bucket_loop;
+import sort_algorithms.Heap;
 import sort_algorithms.LSD;
+
+// Реализуйте алгоритмы: Блочной сортировки, Поразрядной сортировки с младшего разряда, Сортировки бинарной кучей
 
 public class task_5 {
     public static void main(String[] args) {
@@ -10,6 +13,9 @@ public class task_5 {
 
         array= getArray();
         LSD.sort(array);
+
+        array= getArray();
+        Heap.sort(array,true);
 
         new String();
     }
